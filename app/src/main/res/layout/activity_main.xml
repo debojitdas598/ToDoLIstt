@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/main"
+    android:layout_marginBottom="20dp"
+
+
+    tools:context=".MainActivity">
+
+    <!--Edit text to enter course name-->
+
+    <!--edit text to enter course duration-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:background="@drawable/shadow"
+            android:elevation="50dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/icon" />
+
+        <EditText
+            android:id="@+id/idTask"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:elevation="5dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Task"
+            android:padding="5dp" />
+
+
+
+
+        <Button
+            android:id="@+id/idAdd"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edittext"
+
+            android:elevation="10dp"
+            android:text="Add Task"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/idView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:background="@drawable/rounded_edittext"
+            android:elevation="10dp"
+
+            android:text="Show all tasks"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <!--edit text to display course tracks-->
+
+    <!--edit text for course description-->
+
+    <!--button for adding new course-->
+
+</LinearLayout>
